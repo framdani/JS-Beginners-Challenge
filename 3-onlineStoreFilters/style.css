@@ -1,0 +1,166 @@
+body
+{
+  padding-left:250px;
+  padding-right:250px;
+}
+.header
+{
+  display:flex;
+ border: 1px solid black;
+  align-items:center;
+}
+.brand
+{
+  width:15%;
+  margin-left:10px;
+}
+.list
+{
+  width:36%;
+  margin-right:10px;
+}
+.myinput input
+{
+   border:1px solid black;
+   width:99%;
+   height:40px;
+}
+.search
+{
+  height:44px;
+  background-color:black;
+  color:white;
+  border:none;
+}
+ul li
+{
+  list-style:none;
+  display:inline;
+  margin-left:10px;
+}
+select
+{
+  height:44px;
+  background-color:white;
+  border-color:black;
+  color:black;
+}
+.content
+{
+  height:270px;
+  margin-top:10px;
+  background-color:#F2F2F2;
+   
+  display:flex;
+}
+.box1
+{
+  width:50%;
+   background:url("https://drive.google.com/uc?id=1K1nAp4DiwgpNzyCxqse0x7kGU9j8XDsF");
+  background-repeat:no-repeat;
+}
+
+.box2
+{
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  padding-top:50px;
+ 
+}
+.shop-button
+{
+  height:40px;
+  width:150px;
+  font-size:19px;
+  color:white;
+  background-color:black;
+  border-color:black;
+  border-radius:4px;
+}
+.title-1
+{
+  font-size:40px;
+  margin-bottom:20px;
+}
+.description
+{
+   margin-bottom:30px;
+}
+.footer
+{
+  height:500px;
+  margin-top:10px;
+}
+.title-2
+{
+  text-align:center;
+  padding-top:10px;
+}
+.ex-box {
+   background-color: #F2F2F2;
+    height: 190px;
+    width: 190px;
+  }
+.row
+{
+  display:flex;
+  justify-content:space-around;
+  margin-top:20px;
+}
+h1
+{
+  text-align:center;
+}
+.jacket
+{
+  background-image:url("https://drive.google.com/uc?id=1z8jP5ZJIr01VfkOJuUbR1rb4WdMJanWc");
+  background-size:cover;
+}
+.cap
+{
+  background-image:url("https://drive.google.com/uc?id=1d37MJ1shOg8Br6zWKj0JXO7AGZHy_vVR");
+   background-size:cover;
+}
+.bag
+{
+  background-image:url("https://drive.google.com/uc?id=1B24fCTo25ZFixfCa1hDx2SBOB6XkAUI7");
+   background-size:cover;
+}
+.shoes
+{
+  background-image:url("https://drive.google.com/uc?id=1NRJ-ZJpIFhfJm8yxHFITCD-jx5yu-s1K");
+   background-size:cover; 
+}
+.boot
+{
+  background-image:url("https://drive.google.com/uc?id=1tbmiHGqddCQOq1eC-f-Yk8qj9f8cZa5a");
+  background-size:cover;
+}
+.suit
+{
+  background-image:url("https://drive.google.com/uc?id=13EZbVc_HGI-001i2Klm3c6CSz43MctzO");
+  background-size:cover;
+}
+.dress
+{
+  background-image:url("https://drive.google.com/uc?id=1GfzkRBT26QjWYOnT9X5IofgZN53PqOHZ");
+  background-size:cover;
+}
+.jacket-2
+{
+  background-image:url("https://drive.google.com/uc?id=1TlpHnZeb8W5uUmteRq07PguZHkTq0wZe");
+  background-size:cover;
+}
+.text {
+  display: none;
+  position:relative;
+  float:left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ex-box:hover .text
+{
+  display:block; 
+  background-image:url("bla bla");

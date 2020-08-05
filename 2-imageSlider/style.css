@@ -1,0 +1,25 @@
+body
+{
+  background-color:gainsboro;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.container
+{
+  box-shadow: 0 10px 20px -6px black;
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.w3-button
+{
+  border:none;
+  font-size:30px;
+  
+}
+.w3-button:hover
+{
+  color:white;
+}
